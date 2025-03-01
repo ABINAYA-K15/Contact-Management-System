@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Details</title>
+  <link rel="stylesheet" href="contacts.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Contact Details</h1>
+    <button class="logout-btn" onclick="logout()">Logout</button>
+  </div>
+
+  <div class="container">
+    <h2>Full Details of the Contact</h2>
+    <div id="contactDetails">
+      <!-- Contact details will be dynamically displayed here -->
+    </div>
+    <div class="actions">
+      <button class="edit-btn" onclick="editContact()">Edit</button>
+      <button class="delete-btn" onclick="deleteContact()">Delete</button>
+    </div>
+  </div>
+
+  <script src="details.js"></script>
+</body>
+</html>
